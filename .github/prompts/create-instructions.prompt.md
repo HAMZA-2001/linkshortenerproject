@@ -1,0 +1,5 @@
+---
+name: Instructions Generator
+description: Describe when to use this prompt
+---
+Take the information below and generete an agent instructions .md file for it in the /docs directory. If a .md filename is provided, use that, otherwise gerneate an approproate filename based on the generated content. Make sure the instructions are concise and not too long. Make sure to update the AGENTS.md file to reference this new docs file. If no information is provided below, prompt the user to give the necessary details about the layer of architecture or coding standards that this instructions file should cover. Always make sure to use the most up to date information when generating these instructions files. If you need to search for more information, use the search tool to find the relevant details in the existing documentation or codebase.
