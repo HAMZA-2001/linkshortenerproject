@@ -8,6 +8,7 @@ import {
   SignedOut,
   UserButton,
 } from "@clerk/nextjs";
+import { shadesOfPurple } from "@clerk/themes";
 import { Button } from "@/components/ui/button";
 import "./globals.css";
 
@@ -32,7 +33,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <ClerkProvider>
+    <ClerkProvider appearance={{ baseTheme: shadesOfPurple }}>
       <html lang="en" className="dark">
         <body
           className={`${geistSans.variable} ${geistMono.variable} antialiased bg-background text-foreground`}
