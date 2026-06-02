@@ -99,7 +99,7 @@ export default function Home() {
           </p>
           <div className="flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
             <SignedOut>
-              <SignUpButton mode="modal">
+              <SignUpButton mode="modal" forceRedirectUrl="/dashboard">
                 <Button size="lg" className="w-full sm:w-auto">
                   Get Started for Free
                 </Button>
