@@ -8,7 +8,6 @@ import {
 } from "@/components/ui/card";
 import {
   SignUpButton,
-  SignInButton,
   SignedIn,
   SignedOut,
 } from "@clerk/nextjs";
@@ -105,11 +104,6 @@ export default function Home() {
                   Get Started for Free
                 </Button>
               </SignUpButton>
-              <SignInButton mode="modal">
-                <Button size="lg" variant="outline" className="w-full sm:w-auto">
-                  Sign In
-                </Button>
-              </SignInButton>
             </SignedOut>
             <SignedIn>
               <Button size="lg" asChild>
